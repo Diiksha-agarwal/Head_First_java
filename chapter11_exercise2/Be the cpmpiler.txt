@@ -1,0 +1,51 @@
+==========================================question================================================
+                                BE the Compiler, advanced
+
+Your job is to play compiler and determine which of these statements would compile.
+Some of this code wasn’t covered in the chapter, so you need to work out the answers
+based on what you DID learn, applying the “rules” to these new situations.
+The signatures of the methods used in the exercise are in the boxes.
+
+==========================================signatures===============================================
+
+private void takeDogs(List<Dog> dogs) { }
+---------------------------------------------------------------------------------------------------
+
+private void takeAnimals(List<Animal> animals) { }
+---------------------------------------------------------------------------------------------------
+
+private void takeAnimals(List<Animal> animals) { }
+---------------------------------------------------------------------------------------------------
+
+private void takeObjects(ArrayList<Object> objects) { }
+
+==========================================statements===============================================
+1. takeAnimals(new ArrayList<Animal>());
+2. takeDogs(new ArrayList<Animal>());
+3. takeAnimals(new ArrayList<Dog>());
+4. takeDogs(new ArrayList<>());
+5. List<Dog> dogs = new ArrayList<>();
+   takeDogs(dogs);
+6. takeSomeAnimals(new ArrayList<Dog>());
+7. takeSomeAnimals(new ArrayList<>());
+8. takeSomeAnimals(new ArrayList<Animal>());
+9. List<Animal> animals = new ArrayList<>();
+   takeSomeAnimals(animals);
+10. List<Object> objects = new ArrayList<>();
+    takeObjects(objects);
+11. takeObjects(new ArrayList<Dog>());
+12. takeObjects(new ArrayList<Object>());
+
+===========================================answers=================================================
+1. yes
+2. no
+3. no
+4. yes
+5. yes
+6. yes
+7. yes
+8. yes
+9. yes
+10. no
+11. no
+12. yes

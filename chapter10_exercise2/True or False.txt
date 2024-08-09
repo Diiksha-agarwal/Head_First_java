@@ -1,0 +1,37 @@
+===========================================question===============================================
+This chapter explored the wonderful, static world
+of Java. Your job is to decide whether each of the
+following statements is true or false.
+
+==========================================statements==============================================
+
+1. To use the Math class, the first step is to make an instance of it.
+2. You can mark a constructor with the static keyword.
+3. Static methods don’t have access to instance variable state of the “this” object.
+4. It is good practice to call a static method using a reference variable.
+5. Static variables could be used to count the instances of a class.
+6. Constructors are called before static variables are initialized.
+7. MAX_SIZE would be a good name for a static final variable.
+8. A static initializer block runs before a class’s constructor runs.
+9. If a class is marked final, all of its methods must be marked final.
+10. A final method can be overridden only if its class is extended.
+11. There is no wrapper class for boolean primitives.
+12. A wrapper is used when you want to treat a primitive like an object.
+13. The parseXxx methods always return a String.
+14. Formatting classes (which are decoupled from I/O) are in the java.format package.
+
+==========================================answers==================================================
+1. False, the Constructor of Math class is private and its methods are static.
+2. False, the constructor is used to initialize instance variables so it can't be static.
+3. True, static methods can't access any non-static variables.
+4. False, though its not illegal but it leads to confusion.
+5. True, It is an application.
+6. False, It is the other way around.
+7. True, It follows the conventional naming convention.
+8. True, It runs when the class is loaded,
+9. False, its a redundant activity,
+10. False, A final method can't be overridden at all.
+11. False, The wrapper class for boolean is Boolean.
+12. True, Essentially yes.
+13. False, the parseXxx methods are to convert it from string to a given type.
+14. False, Java.util.

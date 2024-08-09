@@ -1,0 +1,46 @@
+============================================question===============================================
+This chapter explored the wonderful world of
+exceptions. Your job is to decide whether each of the
+following exception-related statements is true or false.
+
+=============================================statements============================================
+1. A try block must be followed by a catch and a finally block.
+2. If you write a method that might cause a compiler-checked exception, you must wrap
+that risky code in a try/catch block.
+3. Catch blocks can be polymorphic.
+4. Only “compiler checked” exceptions can be caught.
+5. If you define a try/catch block, a matching finally block is optional.
+6. If you define a try block, you can pair it with a matching catch or finally block, or both.
+7. If you write a method that declares that it can throw a compiler-checked exception,
+you must also wrap the exception throwing code in a try/catch block.
+8. The main( ) method in your program must handle all unhandled exceptions thrown to it.
+9. A single try block can have many different catch blocks.
+10. A method can throw only one kind of exception.
+11. A finally block will run regardless of whether an exception is thrown.
+12. A finally block can exist without a try block.
+13. A try block can exist by itself, without a catch block or a finally block.
+14. Handling an exception is sometimes referred to as “ducking.”
+15. The order of catch blocks never matters.
+16. A method with a try block and a finally block can optionally declare a
+checked exception.
+17. Runtime exceptions must be handled or declared.
+
+======================================================answers======================================
+
+1. false
+2. false
+3. true
+4. false
+5. true
+6. true
+7. false
+8. false
+9. true
+10. false
+11. true
+12. false
+13. false
+14. false
+15. false
+16. false
+17. false
