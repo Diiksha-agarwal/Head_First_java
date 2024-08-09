@@ -1,0 +1,55 @@
+===========================================question================================================
+                                    BE the Compiler, advanced
+Your job is to play compiler and determine
+which of these statements would compile.
+But some of this code wasn’t covered in
+the chapter, so you need to work out the
+answers based on what you DID
+learn, applying the “rules” to
+these new situations.
+The signatures of the
+functional interfaces are on the
+right, for your convenience.
+
+=========================================signatures===============================================
+public interface Runnable {
+    void run();
+}
+--------------------------------------------------------------------------------------------------
+public interface Consumer<T> {
+    void accept(T t);
+}
+--------------------------------------------------------------------------------------------------
+public interface Supplier<T> {
+ T get();
+}
+--------------------------------------------------------------------------------------------------
+public interface Function<T, R> {
+ R apply(T t);
+}
+
+============================================statements=============================================
+1. Runnable r = () -> System.out.println("Hi!");
+2. Consumer<String> c = s -> System.out.println(s);
+3. Supplier<String> s = () -> System.out.println("Some string");
+4. Consumer<String> c = (s1, s2) -> System.out.println(s1 + s2);
+5. Runnable r = (String str) -> System.out.println(str);
+6. Function<String, Integer> f = s -> s.length();
+7. Supplier<String> s = () -> "Some string";
+8. Consumer<String> c = s -> "String" + s;
+9. Function<String, Integer> f = (int i) -> "i = " + i;
+10. Supplier<String> s = s -> "Some string: " + s;
+11. Function<String, Integer> f = (String s) -> s.length();
+
+==========================================answers==================================================
+1. yes
+2. yes
+3. no
+4. no
+5. no
+6. yes
+7. yes
+8. no
+9. no
+10. no
+11. no

@@ -1,0 +1,31 @@
+==========================================question=================================================
+                                BE the Compiler
+
+The Java file on this page represents a
+complete program. Your job is to play
+compiler and determine whether this
+file will compile. If it won’t compile,
+how would you fix it? When
+it runs, what would be its
+output?
+
+=========================================output====================================================
+
+option1 - 
+"static block 4
+in main
+super static block
+super constructor
+constructor"
+--------------------------------------------------------------------------------------------------
+option2 - 
+"super static block
+static block 3
+in main
+super constructor
+constructor"
+--------------------------------------------------------------------------------------------------
+
+============================================answer================================================
+option2 as static initializer block executes the moment a class is loaded far before initantiating it. 
+However the second line might differ slightly based on the random number generated.

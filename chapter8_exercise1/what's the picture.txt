@@ -1,0 +1,125 @@
+========================================question===================================================
+Here’s your chance to demonstrate your artistic abilities. On the left you’ll
+find sets of class and interface declarations. Your job is to draw the associated
+class diagrams on the right. We did the first one for you. Use a dashed line for
+"implements" and a double dashed line for "extends".
+
+
+1)      public interface Foo { }
+        public class Bar implements Foo { }
+
+        +-----------+
+        | interface |
+        |   Foo     |
+        +-----------+
+              |
+              |
+              |
+        +-----------+
+        |   class   |
+        |    Bar    |
+        +-----------+
+
+---------------------------------------------------------------------------------------------------
+
+2)      public interface Vinn { }
+        public abstract class Vout implements Vinn { }
+
+        +-----------+
+        | interface |
+        |   Vinn    |
+        +-----------+
+              |
+              |
+              |
+        +-----------+
+        |   class   |
+        |   Vout    |
+        +-----------+
+
+---------------------------------------------------------------------------------------------------
+
+3)      public abstract class Muffie implements Whuffie { }
+        public class Fluffie extends Muffie { }
+        public interface Whuffie { }
+
+        +-----------+
+        | interface |
+        |  Whuffie  |
+        +-----------+
+              |
+              |
+              |
+        +-----------+
+        |   class   |
+        |   Muffie  |
+        +-----------+
+             ||
+             ||
+             ||
+        +-----------+
+        |   class   |
+        |  Fluffie  |
+        +-----------+
+
+---------------------------------------------------------------------------------------------------
+
+4)      public class Zoop { }
+        public class Boop extends Zoop { }
+        public class Goop extends Boop { }
+
+        +-----------+
+        | interface |
+        |   Zoop    |
+        +-----------+
+             ||
+             ||
+             ||
+        +-----------+
+        |   class   |
+        |    Boop   |
+        +-----------+
+             ||
+             ||
+             ||
+        +-----------+
+        |   class   |
+        |    Goop   |
+        +-----------+
+
+---------------------------------------------------------------------------------------------------
+
+5)      public class Gamma extends Delta implements Epsilon { }
+        public interface Epsilon { }
+        public interface Beta { }
+        public class Alpha extends Gamma implements Beta { }
+        public class Delta { }
+
+        +-----------+                +-----------+
+        | interface |                |   class   |
+        |  Epsilon  |                |    Delta  |
+        +-----------+                +-----------+
+              |                            ||
+              |                            ||
+              |                            ||
+              |                            ||
+              +---------+        +==========+           
+                        |        ||
+                        |        ||
+                       +-----------+              +-----------+
+                       |   class   |              | interface |
+                       |   Zoop    |              |   Beta    |
+                       +-----------+              +-----------+
+                            ||                            |
+                            ||                            |
+                            ||                            |
+                            ||                            |
+                            +=========+        +----------+           
+                                     ||        |
+                                     ||        |
+                                    +-----------+
+                                    |   class   |
+                                    |   Alpha   |
+                                    +-----------+
+
+---------------------------------------------------------------------------------------------------

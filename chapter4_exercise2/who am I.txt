@@ -1,0 +1,37 @@
+========================================question================================================
+A bunch of Java components, in full costume, are playing a party
+game, “Who am I?” They give you a clue, and you try to guess who
+they are, based on what they say. Assume they always tell the truth
+about themselves. If they happen to say something that could be
+true for more than one attendee, then write down all for whom that
+sentence applies. Fill in the blanks next to the sentence with the
+names of one or more attendees.
+Tonight’s attendees:
+instance variable, argument, return, getter, setter,
+encapsulation, public, private, pass by value, method
+==================================================================================================
+1) A class can have any number of these. : instance variable, method , getter, setter 
+
+2) A method can have only one of these. : return
+
+3) This can be implicitly promoted. : argument,return
+
+4) I prefer my instance variables private. : encapsulation
+
+5) It really means “make a copy.” : pass by value
+
+6) Only setters should update these. : instance variable
+
+7) A method can have many of these. : argument
+
+8) I return something by definition. : getter
+
+9) I shouldn’t be used with instance variables. : public
+
+10) I can have many arguments. : method
+
+11) By definition, I take one argument. : setter
+
+12) These help create encapsulation. : public, private , getter , setter
+
+13) I always fly solo. : return

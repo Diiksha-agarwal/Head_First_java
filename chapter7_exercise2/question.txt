@@ -1,0 +1,12 @@
+===========================================question================================================
+            BE the Compiler
+
+Which of the A-B pairs of methods listed on the right, if
+inserted into the classes on the left, would compile and
+produce the output shown? (The A method inserted into
+class Monster, the B method inserted into class Vampire.)
+
+===========================================output==================================================
+"a bite?
+breathe fire
+arrrgh"
